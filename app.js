@@ -58,7 +58,6 @@ app.get('/posts/:title', (req, res) => {
       return;
     }
   });
-  res.sendStatus(404);
 });
 
 app.listen(3000, function() {
